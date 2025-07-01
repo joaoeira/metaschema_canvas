@@ -6,6 +6,10 @@ This Chrome extension serves as a proof of concept for a new mode of interacting
 
 Metaschemas are leveraged to translate these user instructions into structured extraction templates. Rather than working with predefined schemas, the AI interprets the user's intent and generates appropriate data structures on demand. The canvas-based interface enables exploratory data analysis where users can run multiple extraction pipelines in parallel, each with different filters and output schemas. This iterative approach lets researchers refine their queries, compare different extraction strategies, and progressively narrow their focus until they've captured the precise information they need from their document corpus.
 
+## Demo
+
+https://www.loom.com/share/14d21cee8b9046b998acdb82b4c4ac25?sid=7cc5da84-dbcc-4994-bad5-53cdc23e5f6f
+
 ## How to use
 
 1. Install dependencies `bun i`
