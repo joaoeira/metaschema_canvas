@@ -26,12 +26,10 @@ function extractSchemaFields(
 	const ast = schema.ast;
 
 	if (ast._tag === "TypeLiteral") {
-		return [
-			...ast.propertySignatures.map(
-				(prop: SchemaAST.PropertySignature) => String(prop.name),
-				[],
-			),
-		];
+		return ast.propertySignatures.map(
+			(prop: SchemaAST.PropertySignature) => String(prop.name),
+			[],
+		);
 	}
 
 	return [];
